@@ -9,7 +9,7 @@ body {
     display:flex;
     flex-direction: column;
     height: 100vh;
-    background-image:url(../imagens/wall.png);
+    background-image:url(../src/imagens/wall.png);
     
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .enemy {
-    background-image: url(../imagens/ralph.png);
+    background-image: url(../src/imagens/ralph.png);
     background-size: cover;
     
 }
