@@ -1,10 +1,11 @@
-//Código destinado a mostrar o XP de seu Heroí
-
+//Código destinado a mostrar o XP de seu Heroí,consequentemente seu nível
+//Declarando as variáveis
 let nome = "John Smith"
 let xp = 7000
 let nivel 
 
 while (true) {
+    //Enquanto essa estrutura for verdadeira, ela vai verificar o XP
     if(xp <= 1000 ){
         nivel = "Ferro"   
     } else if( xp > 1001 && xp <= 2000) {
@@ -26,9 +27,9 @@ while (true) {
         
       }
     break
-    // Your code logic here
+    
 }
-
+// faz o console.log da saída
 console.log("O Herói de nome " + nome, "está no nível de " + nivel);
 
 
