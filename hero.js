@@ -1,10 +1,12 @@
 //Código destinado a mostrar o XP de seu Heroí,consequentemente seu nível
 //Declarando as variáveis
-let nome = "John Smith"
-let xp = 7000
+let nome  = "John Smith"
+let xp  = 8000
 let nivel 
 
+
 while (true) {
+    
     //Enquanto essa estrutura for verdadeira, ela vai verificar o XP
     if(xp <= 1000 ){
         nivel = "Ferro"   
