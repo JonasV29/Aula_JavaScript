@@ -78,7 +78,6 @@ h2 {
     position: absolute;
     inset: 0; /* coloca a imagem embaixo de um fundo preto*/
     background: #404040;
-    opacity: 0.85;
     transition: 0.25s;
     transform: rotateY(0deg);
     backface-visibility: hidden; /* a face da imagem fica escondida*/
