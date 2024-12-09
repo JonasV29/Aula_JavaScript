@@ -23,17 +23,16 @@ function convertPokemonToLi(pokemon) {
 
 const pokemonList = document.getElementById('pokemonList') // get element by ID
 
-fetch(url)
-    .then( (response)  => response.json()) //then is used to when reponse is true
-    .then( (jsonBody) => jsonBody.results) //show the body of the document
-    .then((pokemonLi) => {
+  pokeApi.getPokemons().then((pokemons) => {
+    const listItems = [] // creating a new list
+
         for (let i= 0; i< pokemonLi.length; i++) {
             const pokemon = pokemonLi[i];
-              pokemonList.innerHTML += convertPokemonToLi(pokemon) // change the list
-            
-            
+              listItems.push(convertPokemonToLi(pokemon))// change the list  
         }
+
+        console.log(listItems)
     })
-    .catch( (error)=> console.log(error)) // catch is used to if have a problem
+    
 
    
