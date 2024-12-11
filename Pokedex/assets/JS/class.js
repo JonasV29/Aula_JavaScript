@@ -1,4 +1,5 @@
-
+const pokemonList = document.getElementById('pokemonList') // get element by ID
+const loadMoreButton = document.getElementById('loadMoreButton')
 
 function convertPokemonToLi(pokemon) {
     return `
@@ -17,12 +18,14 @@ function convertPokemonToLi(pokemon) {
           `
 }
 
-const pokemonList = document.getElementById('pokemonList') // get element by ID
-
+function loadPokemonItens(){
   pokeApi.getPokemons().then((pokemons = []) => {
-     const newHtml = pokemons.map( convertPokemonToLi).join('')
-    pokemonList.innerHTML = newHtml
-    })
+    const newHtml = pokemons.map( convertPokemonToLi).join('')
+    pokemonList.innerHTML += newHtml
+  })
+}
+
+ 
     
 
    
