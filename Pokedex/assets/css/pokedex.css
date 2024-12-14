@@ -136,7 +136,13 @@
     padding: 1rem;
 }
 
-.pagination button {
+#power {
+    display: block;
+    margin: auto;
+    padding-bottom: 10em;
+}
+ 
+.pagination button ,#power {
     color: #fff;
     background-color: #6c79db;
     border:none;
