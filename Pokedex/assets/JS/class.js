@@ -5,6 +5,9 @@ const maxRecords = 94
 const limit = 10;
 let offset = 0;
 
+function myFunction() {  //when click the button, open a new tab
+  window.open('power.html', '_blank')
+}
 
 function convertPokemonToLi(pokemon) {
   return `
