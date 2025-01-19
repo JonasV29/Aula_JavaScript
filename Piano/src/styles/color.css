@@ -1,0 +1,6 @@
+body {
+    display: flex; /* Is Flex because the elements can move around*/
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 100vh means 100 view height*/
+}
