@@ -15,6 +15,13 @@ body {
     border-radius: 20px;
 
 }
+/* To know the color in the document you can use the app called color picker */
+.container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
 header h2 {
     font-size: 1.6rem; /* Rem indicates the desired height 
@@ -68,7 +75,7 @@ header .column span {
 
 .keys-check input:checked::before {
     left: 2.1rem;
-    background-color:#fff;
+    background-color: #0d3b0d;
 
 }
 

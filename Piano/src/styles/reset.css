@@ -3,4 +3,5 @@
     padding: 0;
     box-sizing: border-box;
     outline: none; /* remove the box when you click the keyboard Tab*/
+    font-family: "Poppins", sans-serif;
 }
